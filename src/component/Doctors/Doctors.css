@@ -1,0 +1,25 @@
+.doc-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 2rem;
+    padding: 2rem;
+}
+.img-div{
+    margin-left: -3rem;
+}
+
+@media (min-width:1200px){
+    .doc-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 2rem;
+        padding: 2rem;
+    }
+}
+
+@media (max-width:576px){
+    .doc-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

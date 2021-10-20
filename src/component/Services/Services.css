@@ -1,0 +1,29 @@
+.service-container{
+    background-image: url(https://jevelin.shufflehound.com/medical/wp-content/uploads/sites/23/2018/09/Rectangle-827-copy-2.jpg?id=72);
+    padding: 3rem;
+    
+}
+.second-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: white;
+    margin-bottom: 5rem;
+}
+.text{
+    text-align: center;
+}
+
+@media (min-width:1200px){
+    .second-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        background-color: white;
+        margin-bottom: 5rem;
+    }
+}
+
+@media (max-width:576px) {
+    .second-container {
+        grid-template-columns: 1fr;
+    }
+} 

@@ -1,0 +1,21 @@
+.about-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+@media (min-width:1200px) {
+    .about-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media (max-width:576px) {
+    .about-container{
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+} 

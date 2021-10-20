@@ -1,0 +1,38 @@
+.banner{
+    background-image: url(https://jevelin.shufflehound.com/medical/wp-content/uploads/sites/23/2018/09/lady.jpg?id=17);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content{
+    padding:12rem 8rem;
+}
+.content h1{
+    font-size: 4rem;
+}
+
+
+
+@media (min-width:1200px) {
+    .banner,.content{
+        background-image: url(https://jevelin.shufflehound.com/medical/wp-content/uploads/sites/23/2018/09/lady.jpg?id=17);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    }
+}
+
+
+@media (max-width:576px) {
+    .banner{
+            background-image: url(https://jevelin.shufflehound.com/medical/wp-content/uploads/sites/23/2018/09/lady.jpg?id=17);
+        background-repeat: no-repeat;
+        background-size:cover ;
+        }
+        .content{
+            padding: 10px;
+        }
+        .content h1{
+            font-size: 1rem;
+        }
+        
+    }
